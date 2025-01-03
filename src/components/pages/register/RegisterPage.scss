@@ -1,0 +1,48 @@
+@import '../../../assets/scss/scssVariables.scss';
+
+
+.register-container {
+
+    padding: 115px 20px;
+
+    .title {
+        text-align: center;
+    }
+
+    .register-forms {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        :first-child {
+            margin-top: 30px;
+        }
+
+        input {
+            width: 100%;
+            max-width: 350px;
+            padding: 10px 10px;
+            margin-top: 10px;
+        }
+
+        .register-btn {
+            border: none;
+            font-size: 18px;
+            width: 100%;
+            max-width: 350px;
+            padding: 19px 0px;
+            border-radius: 20px;
+            color: #fff;
+            margin-top: 25px;
+            background-image: $secondary-bg;
+        }
+
+        .backToLogin-btn {
+            margin-top: 25px;
+        }
+
+    }
+
+
+}

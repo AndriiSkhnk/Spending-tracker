@@ -1,0 +1,109 @@
+@import '../../../assets/scss/scssVariables.scss';
+
+.main-page {
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .welcome-message {
+      text-align: center;
+    }
+  
+    .expense-summary {
+      margin-top: 20px;
+
+      h2 {
+        font-size: 18px;
+        font-weight: 500;
+        color: $secondary-text-color;
+      }
+
+      p {
+        font-size: 32px;
+        font-weight: 800;
+        margin-top: 10px;
+      }
+
+    }
+
+    .add-expense-btn {
+      border: none;
+      font-size: 16px;
+      padding: 19px 0px;
+      border-radius: 20px;
+      color: #fff;
+      margin-top: 25px;
+      background-image: $secondary-bg;
+    }
+
+    .expense-list {
+      margin-top: 35px;
+
+      p {
+        font-size: 18px;
+        font-weight: 500;
+        color: $secondary-text-color;
+      }
+
+      .horisontal-line {
+        border-top: 1px solid #084B83;
+        margin-top: 10px;
+      }
+
+      .expense-item {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 15px 10px;
+        background-image: $expense-item-bg;
+        align-items: center;
+        margin-top: 10px;
+        color: $expense-text-color;
+        font-size: 16px;
+
+        .expense-amount {
+          font-weight: 700;
+          font-size: 18px;
+          flex-basis: 93px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+
+        .expense-category {
+          font-weight: 400;
+          flex: 1;
+          min-width: 100px;
+          max-width: 200px;
+          text-align: center;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+
+        }
+
+        .expense-date {
+          font-weight: 300;
+          font-size: 12px;
+          flex-basis: 74px
+
+        }
+
+        button {
+          background: none;
+          border: none;
+        }
+      }
+
+      .noExpenses-text {
+        text-align: center;
+        margin-top: 20px;
+        font-weight: 400;
+      }
+
+    }
+ 
+}
+  

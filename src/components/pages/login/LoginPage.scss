@@ -1,0 +1,60 @@
+@import '../../../assets/scss/scssVariables.scss';
+
+
+.loginPage-wrap {
+    padding: 115px 20px;
+
+
+    .title {
+        text-align: center;
+    }
+
+
+    .login__forms {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        input {
+            width: 100%;
+            max-width: 350px;
+            padding: 10px 10px;
+        }
+
+        #email {
+            margin-top: 30px;
+        }
+
+        #password {
+            margin-top: 10px;
+        }
+
+        button {
+            border: none;
+            font-size: 18px;
+            width: 100%;
+            max-width: 350px;
+            padding: 19px 0px;
+            border-radius: 20px;
+            color: #fff;
+        }
+
+        .submit-button {
+            margin-top: 25px;
+            background-image: $secondary-bg;
+        }
+
+        .google-login {
+            margin-top: 10px;
+            background-color: #DD5742;
+        }
+    }
+
+    .goToRegister {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+}

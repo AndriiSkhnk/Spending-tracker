@@ -1,0 +1,16 @@
+@import './assets/scss/scssVariables.scss';
+
+
+body {
+
+    font-family: $main-font;
+    color: $primary-text-color;
+
+    .wrap {
+        margin: 0 auto;
+        max-width: 600px;
+        position: relative;
+    }
+
+
+}
